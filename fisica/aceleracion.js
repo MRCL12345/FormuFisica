@@ -18,6 +18,7 @@ function abasica() {
     `success`
   );
 }
+
 function aif() {
   let vi = parseInt(prompt("Ingresa tu velocidad inicial"));
   let vf = parseInt(prompt("Ingresa velocidad final"));

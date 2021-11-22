@@ -77,7 +77,7 @@ function g_a_kg() {
   swal(`Introduce tus gramos`, {
     content: "input",
   }).then((value) => {
-    swal(`Tienes: ${(parseInt(value) * 1) / 100}kg`);
+    swal(`Tienes: ${parseInt(value * 1) / 1000}kg`);
   });
 }
 
