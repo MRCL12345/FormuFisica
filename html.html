@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormuFisica</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+  </script>
+  <script src="fisica/conversion.js"></script>
+  <script src="fisica/velocidad.js"></script>
+  <script src="fisica/aceleracion.js"></script>
+  <script src="fisica/fuerza.js"></script>
+  <script src="fisica/Ep.js"></script>
+  <script src="fisica/Ec.js"></script>
+  <script src="fisica/Tmec.js"></script>
+  <script src="fisica/Emec.js"></script>
+</head>
+
+<body>
+  <h1>FormuFisica</h1>
+  <h4>distancia:</h4>
+  <button onclick="convertmetros();">metros</button>
+  <br>
+  <h4>masa:</h4>
+  <button onclick="convertkg();">kilo gramos</button>
+  <hr>
+  <h2>Velocidad:</h2>
+  <button onclick="vbasica();">Basica</button>
+  <hr>
+  <h2>Aceleración:</h2>
+  <button onclick="abasica();">Basica</button>
+  <button onclick="aif();">Vi-Vf</button>
+  <hr>
+  <h2>Fuerza:</h2>
+  <button onclick="fbasica();">Basica</button>
+  <hr>
+  <h2>Energía Potencial:</h2>
+  <button onclick="epbasica();">Basica</button>
+  <hr>
+  <h2>Energía Cinética:</h2>
+  <button onclick="ecbasica();">Basica</button>
+  <hr>
+  <h2>Energía Mecánica</h2>
+  <button onclick="emecbasica();">Basica</button>
+  <hr>
+  <h2>Trabajo Mecánico</h2>
+  <button onclick="tmecbasica();">Basica</button>
+  <hr>
+  <!--!------------------------------------------------------------------->
+  <h4>Que te ofrecemos?</h4>
+  <ul>
+    <li>Facilidad a la hora de realizar problemas de Física</li>
+    <li>Las formulas las cuales debes usar en cada problema</li>
+    <li>Hacer conversiones facilmente</li>
+    <li>estar enterado de las nuevas novedades de la clase</li>
+    <li>Aprender Fisica mas rapido</li>
+    <li>Tener una calculadora especial en tu bolsillo</li>
+  </ul>
+  <h4>Creditos:</h4>
+  <ul type="circle">
+    <li>El libro xd</li>
+    <li>MRCL</li>
+    <li>google</li>
+  </ul>
+  <!---->
+  <script>
+    swal({
+      title: "Hola!",
+      text: "Antes que nada, le recomendamos que ponga cada valor con su respectivo valor numerico con la unidad de medida correcta (kg,m etc) si no los tiene asi, use el conversor antes",
+      icon: "warning",
+      grow: `fullscreen`,
+
+    })
+      .then((value) => {
+        swal({
+          title: "By MRCL",
+          text: "Bienvenido a FormuFisica!",
+          icon: "info",
+
+        });
+      });
+    //--
+  </script>
+</body>
+
+</html>
