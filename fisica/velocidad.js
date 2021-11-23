@@ -1,6 +1,6 @@
 function vbasica() {
-  let distancia = parseInt(prompt("Introduce tu distancia"));
-  let tiempo = parseInt(prompt("Introduce el tiempo"));
+  let distancia = parseFloat(prompt("Introduce tu distancia"));
+  let tiempo = parseFloat(prompt("Introduce el tiempo"));
   let r = distancia / tiempo;
   swal(
     `Velocidad`,

@@ -1,6 +1,6 @@
 function abasica() {
-  let velocidad = parseInt(prompt("Introduzca su velocidad"));
-  let tiempo = parseInt(prompt("Introduzca el tiempo empleado"));
+  let velocidad = parseFloat(prompt("Introduzca su velocidad"));
+  let tiempo = parseFloat(prompt("Introduzca el tiempo empleado"));
   let r = velocidad / tiempo;
   swal(
     `
@@ -19,9 +19,9 @@ function abasica() {
 }
 
 function aif() {
-  let vi = parseInt(prompt("Ingresa tu velocidad inicial"));
-  let vf = parseInt(prompt("Ingresa velocidad final"));
-  let tiempo = parseInt(prompt("Ingresa el tiempo"));
+  let vi = parseFloat(prompt("Ingresa tu velocidad inicial"));
+  let vf = parseFloat(prompt("Ingresa velocidad final"));
+  let tiempo = parseFloat(prompt("Ingresa el tiempo"));
   let r = (vf - vi) / tiempo;
   swal(
     `ACELERACIÓN Vi-Vf`,

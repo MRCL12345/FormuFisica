@@ -70,14 +70,14 @@ function T_a_kg() {
   swal(`Introduce tus Toneladas`, {
     content: "input",
   }).then((value) => {
-    swal(`Tienes: ${parseInt(value) * 1000}kg`);
+    swal(`Tienes: ${parseFloat(value) * 1000}kg`);
   });
 }
 function g_a_kg() {
   swal(`Introduce tus gramos`, {
     content: "input",
   }).then((value) => {
-    swal(`Tienes: ${parseInt(value * 1) / 1000}kg`);
+    swal(`Tienes: ${parseFloat(value * 1) / 1000}kg`);
   });
 }
 

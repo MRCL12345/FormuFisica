@@ -1,6 +1,6 @@
 function ecbasica() {
-  let masa = parseInt(prompt(`Introduce la masa`));
-  let velocidad2 = parseInt(prompt(`Introduce la velocidad al cuadrado`));
+  let masa = parseFloat(prompt(`Introduce la masa`));
+  let velocidad2 = parseFloat(prompt(`Introduce la velocidad al cuadrado`));
   let r = velocidad2 * velocidad2 * masa * 0.5;
   swal(
     `

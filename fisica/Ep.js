@@ -1,6 +1,6 @@
 function epbasica() {
-  let masa = parseInt(prompt("Introduce la masa"));
-  let altura = parseInt(prompt("Introduce la altura"));
+  let masa = parseFloat(prompt("Introduce la masa"));
+  let altura = parseFloat(prompt("Introduce la altura"));
   let r = masa * altura * 9.81;
   swal(
     `

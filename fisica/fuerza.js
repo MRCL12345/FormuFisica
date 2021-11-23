@@ -1,6 +1,6 @@
 function fbasica() {
-  let masa = parseInt(prompt("Introduzca su masa"));
-  let aceleracion = parseInt(prompt("Introduzca su aceleración"));
+  let masa = parseFloat(prompt("Introduzca su masa"));
+  let aceleracion = parseFloat(prompt("Introduzca su aceleración"));
   let r = masa * aceleracion;
   swal(
     `

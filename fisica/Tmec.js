@@ -1,6 +1,6 @@
 function tmecbasica() {
-  let fuerza = parseInt(prompt("Ingrese la fuerza"));
-  let distancia = parseInt(prompt("Ingrese la distancia"));
+  let fuerza = parseFloat(prompt("Ingrese la fuerza"));
+  let distancia = parseFloat(prompt("Ingrese la distancia"));
   let r = fuerza * distancia;
   swal(
     `TRABAJO MECÁNICO`,
