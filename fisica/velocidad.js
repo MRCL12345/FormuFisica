@@ -12,7 +12,6 @@ function vbasica() {
     t = ${tiempo}
     -----
     Resultado: 
-    v = ${r}m/s`,
-    `success`
+    v = ${r}m/s`
   );
 }

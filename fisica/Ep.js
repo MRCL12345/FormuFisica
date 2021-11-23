@@ -15,7 +15,6 @@ function epbasica() {
   -----
   Resultado:
   Ep = ${r}J
-  `,
-    `success`
+  `
   );
 }

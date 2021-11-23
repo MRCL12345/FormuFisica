@@ -14,7 +14,6 @@ function fbasica() {
   -----
   Resultado:
   F = ${r}N
-  `,
-    `success`
+  `
   );
 }

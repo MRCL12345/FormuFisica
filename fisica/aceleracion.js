@@ -14,8 +14,7 @@ function abasica() {
     ------
     Resultado:
     a = ${r}m/s²
-  `,
-    `success`
+  `
   );
 }
 
@@ -35,7 +34,6 @@ function aif() {
     t = ${tiempo}s
     -----
     Resultado:
-    a = ${r}m/s²`,
-    `success`
+    a = ${r}m/s²`
   );
 }
